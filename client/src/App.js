@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import ListContacts from "./ListContacts";
 import avatar from "./icons/Mohan-muruge.jpg";
@@ -22,12 +23,19 @@ const contacts = [
     avatarURL: avatar,
   },
 ];
+=======
+import React, { Component } from 'react';
+>>>>>>> master
 
 class App extends Component {
   render() {
     return (
       <div>
+<<<<<<< HEAD
         <ListContacts contacts={contacts} />
+=======
+        Hello World
+>>>>>>> master
       </div>
     );
   }
